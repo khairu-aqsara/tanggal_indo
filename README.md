@@ -4,7 +4,7 @@
 composer require ezadev/tgl_indo
 ```
 
-```
+```php
 use Ezadev\Tanggal\TanggalIndo;
 
 $tgl = date('Y-m-d');
