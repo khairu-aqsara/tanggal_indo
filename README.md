@@ -9,7 +9,7 @@ use Ezadev\Tanggal\TanggalIndo;
 
 $tgl = date('Y-m-d');
 
-echo TanggalIndo::HariTanggalBulanTahun($tgl)."\n";
-echo TanggalIndo::TanggalBulanTahun($tgl)."\n";
-echo TanggalIndo::BulanTahun($tgl)."\n";
+echo TanggalIndo::HariTanggalBulanTahun($tgl)."\n"; // Jumat, 12 Juli 2019
+echo TanggalIndo::TanggalBulanTahun($tgl)."\n"; // 12 Juli 2019
+echo TanggalIndo::BulanTahun($tgl)."\n"; // Juli 2019
 ```
